@@ -206,17 +206,19 @@ CSM模式-关闭
 
 PS：断开网络，拔掉以太网，断开wifi
 
-------安装过程将会重启，重启后选择boot mac install from Macintosh HD或抹盘的时候的卷名
+------安装过程将会重启，重启后选择boot mac install from 「Macintosh HD」或「抹盘的时候的卷名」
 
-------安装将重启多次，选择boot macos install from Macintosh HD或抹盘的时候的卷名
+------安装将重启多次，选择boot macos install from 「Macintosh HD」或「抹盘的时候的卷名」
 
-------安装完成，选择boot macos from Macintosh HD或抹盘的时候的卷名
+------安装完成，选择boot macos from 「Macintosh HD」或「抹盘的时候的卷名」
 
 安装完成
 
 七、首次进入系统
 
 PS:能跳过的尽量跳过
+
+无法跳过：设置用户名及密码
 
 八、进入桌面
 
