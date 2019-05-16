@@ -43,7 +43,11 @@ Mojave10.14.4:https://blog.daliansky.net/macOS-Mojave-10.14.4-18E226-official-ve
 
 链接:https://pan.baidu.com/s/126xM0Hd-VV3JAmBCLRfJ0w  密码:on1y
 
-（4）8G或大于8G的U盘
+（4）「Clover Configurator」：
+
+链接:https://pan.baidu.com/s/1BQmm0ujuQCwsqHDwJOjXug  密码:1psl
+
+（5）8G或大于8G的U盘
 
 二、制作安装系统U盘
 
