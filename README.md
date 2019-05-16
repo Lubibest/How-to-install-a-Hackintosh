@@ -41,6 +41,8 @@ Mojave10.14.4:https://blog.daliansky.net/macOS-Mojave-10.14.4-18E226-official-ve
 
 链接:https://pan.baidu.com/s/126xM0Hd-VV3JAmBCLRfJ0w  密码:on1y
 
+（4）8G或大于8G的U盘
+
 二、制作安装系统U盘
 
 （1）win下制作
@@ -51,19 +53,29 @@ Mojave10.14.4:https://blog.daliansky.net/macOS-Mojave-10.14.4-18E226-official-ve
 
 （2）mac下制作
 
------插入你的U盘，使用磁盘工具将其抹掉，并重命名为USB，并重命名为USB，并重命名为USB
+-----插入u盘
 
------打开双击镜像xx.dmg
+-----打开 “应用程序 → 实用工具 → 磁盘工具”，将U盘「抹掉」(格式化) 成「Mac OS X 扩展（日志式）」格式、GUID 分区图，并将 U 盘命名为「USB」(下图序号3处)。注意：这个盘符名称必须与后面的命令里的名称一致，需要认真看清楚，很多新手容易出错在这里)
 
------将镜像中的xx.app文件拖入application（应用程序）文件夹
+-----打开双击镜像xx.dmg，将镜像中的xx.app文件拖入application（应用程序）文件夹
 
------打开终端，输入一下命令：
+-----打开 “应用程序→实用工具→终端”，将下面的一段命令复制并粘贴进去，运行：
 
-Mojave:
+--Mojave:
 
+sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/USB /Applications/Install\ macOS\ Mojave.app --nointeraction
 
+--High Sierra
 
-三、部署UEFI启动环境
+sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/USB --applicationpath /Applications/Install\ macOS\ High\ Sierra.app --nointeraction
+
+-----挂载EFI
+
+打开终端，输入命令：sudo diskutil mount disk0s1或者sudo diskutil mount EFI
+
+-----将镜像中的EFI或适合你机器使用的EFI，复制到U盘的EFI分区
+
+三、部署黑苹果的UEFI启动环境
 
 UEFI启动需要你的磁盘为guid格式，对于mbr的磁盘，将磁盘转换为guid格式
 
