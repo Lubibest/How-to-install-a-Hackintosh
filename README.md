@@ -22,26 +22,48 @@
 
 如何正确的安装一个黑苹果系统
 
-首先你需要下载几样东西，其中包括：
+一、首先你需要下载几样东西，其中包括：
 
-1，镜像
+（1）镜像
 镜像下载地址：
 
-  1）Mojave10.14.5:https://blog.daliansky.net/macOS-Mojave-10.14.5-18F132-official-version-with-Clover-4928-original-image.html
+Mojave10.14.5:https://blog.daliansky.net/macOS-Mojave-10.14.5-18F132-official-version-with-Clover-4928-original-image.html
 
 Mojave10.14.4:https://blog.daliansky.net/macOS-Mojave-10.14.4-18E226-official-version-with-Clover-4903-original-image.html
 
 10.13.6(17G65):https://blog.daliansky.net/macOS-High-Sierra-10.13.6-17G65-Release-Version-with-Clover-4596-original-mirror.html
 
-  2）Ecther
+（2）Etcher
 
 下载地址：http://etcher.io/
 
-  3）DG分区工具DiskGenius（下文称为DG)：
+（3）DG分区工具DiskGenius（下文称为DG)：
 
 链接:https://pan.baidu.com/s/126xM0Hd-VV3JAmBCLRfJ0w  密码:on1y
 
-2.部署UEFI启动环境
+二、制作安装系统U盘
+
+（1）win下制作
+
+-----安装Etcher
+
+-----打开Etcher-选择镜像-选择U盘-点击Flash，等待完成
+
+（2）mac下制作
+
+-----插入你的U盘，使用磁盘工具将其抹掉，并重命名为USB，并重命名为USB，并重命名为USB
+
+-----打开双击镜像xx.dmg
+
+-----将镜像中的xx.app文件拖入application（应用程序）文件夹
+
+-----打开终端，输入一下命令：
+
+Mojave:
+
+
+
+三、部署UEFI启动环境
 
 UEFI启动需要你的磁盘为guid格式，对于mbr的磁盘，将磁盘转换为guid格式
 
