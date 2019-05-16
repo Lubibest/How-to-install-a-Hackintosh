@@ -14,9 +14,11 @@
 
 如何替换ESP分区中的UEFI引导文件？
 
-如何建立由UEFI引导的MAC/WIN？
+如何建立由UEFI引导的MAC的分区？
 
 如何修复mbr引导的win，使它可以无损的转换成uefi引导的系统？
+
+
 
 正文：
 
@@ -130,3 +132,23 @@ PS2：替换EFI：用DG删除ESP分区中的所有文件，然后将下载好的
 MAC：使用Clover Configurator进行挂载或使用命令符
 
 打开终端，输入命令：sudo diskutil mount disk0s1或者sudo diskutil mount EFI
+
+对EFI分区的文件进行复制、粘贴、删除
+
+PS:替换EFI
+
+删除EFI分区的所有文件，拷贝下载好的EFI到EFI分区
+
+五、下载EFI
+
+我制作了一写台式机的EFI，请查阅以下链接，根据自己的配置类型选择下载合适的EFI，进行安装
+
+https://github.com/Lubibest/Hackintosh
+
+其他机器：
+
+https://github.com/daliansky/Hackintosh
+
+五、安装OS
+
+当你已经完成安装环境的部署、安装U盘的制作、以及EFI的修改或替换（或直接使用默认的EFI）后，你就
