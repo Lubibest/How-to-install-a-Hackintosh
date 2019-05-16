@@ -93,59 +93,55 @@ sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createins
 
 (2)建立ESP引导分区
 
------对空闲的磁盘空间右键，<新建ESP分区>，分区大小为300M，取消勾选<MSR分区>，完成，<保存分区表>
+-----对空闲的磁盘空间右键，「新建ESP分区」，分区大小为「300M」，取消勾选「MSR分区」，完成，「保存分区表」
 
------由于DG分区工具的版本区别，如果无显示<新建ESP分区的>
+-----由于DG分区工具的版本区别，如果无显示「新建ESP分区的」
 
 解决方法：
 
-对空闲的磁盘空间右键，<新建分区>，并选择格式为<EFI>，分区大小为300M，确认后，<保存分区表>
+对空闲的磁盘空间右键，「新建分区」，并选择格式为「EFI」，分区大小为「300M」，确认后，「保存分区表」
 
-此时的ESP分区格式为FAT16，我们需要对该分区格式化为FAT32
+此时的ESP分区格式为「FAT16」，我们需要对该分区格式化为「FAT32」
 
 （3）建立MAC OS系统安装分区
 
------使用DG对磁盘空闲部分右键，新建分区，选择<MAC日志式HFS+>
+-----使用DG对磁盘空闲部分右键，新建分区，选择「MAC日志式HFS+」
 
 PS：部分DG版本会先提示新建ESP分区，点取消，就会出现新建分区的界面
 
 -----<保存分区表>
 
-四、替换或修改EFI分区中的文件
+四、替换或修改「EFI分区」中的文件
 
-黑果小兵在镜像中附带了当前版本的CLOVER，并在博客中注明了各种文件如何解决，具体请查阅
+如何修改和替换EFI
 
------blog.daliansky.net
-
-如何修改EFI
-
-首先需要对ESP分区进行挂载：
+首先需要对「ESP分区」进行挂载：
 
 WIN：
 
-使用DG，默认挂载ESP分区，我们可以用DG工具对ESP分区中的EFI进行复制、删除、粘贴
+使用DG，默认挂载「ESP分区」，我们可以用DG工具对「ESP分区」中的EFI进行「复制、删除、粘贴」
 
 PS:复制粘贴请使用快捷键：Ctrl+C复制，Ctrl+V粘贴
 
-PS2：替换EFI：用DG删除ESP分区中的所有文件，然后将下载好的EFI复制粘贴在ESP分区目录下
+PS2：替换EFI：用DG删除「ESP分区」中的所有文件，然后将下载好的EFI复制粘贴在「ESP分区」目录下
 
-MAC：使用Clover Configurator进行挂载或使用命令符
+MAC：使用「Clover Configurator」进行挂载或使用「命令符」
 
 打开终端，输入命令：sudo diskutil mount disk0s1或者sudo diskutil mount EFI
 
-对EFI分区的文件进行复制、粘贴、删除
+对「EFI分区」的文件进行复制、粘贴、删除
 
 PS:替换EFI
 
-删除EFI分区的所有文件，拷贝下载好的EFI到EFI分区
+删除EFI分区的所有文件，拷贝下载好的「EFI」到「EFI分区」
 
 五、下载EFI
 
-我制作了一系列的台式机的EFI，请查阅以下链接，根据自己的配置类型选择下载合适的EFI，进行安装
+我制作了一系列的台式机的「EFI」，请查阅以下链接，根据自己的配置类型选择下载合适的「EFI」，进行安装
 
 https://github.com/Lubibest/Hackintosh
 
-PS:下载好EFI-for-install"并参考“四、替换或修改EFI分区中的文件”操作
+PS:下载好“EFI-for-install”并参考“四、替换或修改EFI分区中的文件”操作
 
 其他机器：
 
@@ -154,7 +150,7 @@ https://github.com/daliansky/Hackintosh
 
 六、安装OS
 
-当你已经完成安装环境的部署、安装U盘的制作、以及EFI的修改或替换（或直接使用默认的EFI）后
+当你已经完成安装环境的部署、安装U盘的制作、以及「EFI」的修改或替换（或直接使用默认的EFI）后
 
 你就可以开始进行安装了
 
@@ -186,15 +182,15 @@ CSM模式-关闭
 
 超级IO-关闭
 
-（2）选择U盘启动，进入四叶草引导界面
+（2）选择「U盘启动」，进入「四叶草引导界面」
 
 ------选择boot mojave install from install mojave
 
-------进入安装界面之后，选择语言
+------进入「安装界面」之后，选择语言
 
-------进入磁盘工具，
+------进入「磁盘工具」，
 
-对目标安装盘进行<抹掉>,
+对目标安装盘进行「抹掉」,
 
 重命名卷名为"Macintosh HD"或其他
 
@@ -202,7 +198,7 @@ CSM模式-关闭
 
 ------关闭磁盘工具窗口
 
-------选择安装Mojave
+------选择「安装Mojave」
 
 PS：断开网络，拔掉以太网，断开wifi
 
@@ -222,13 +218,13 @@ PS:能跳过的尽量跳过
 
 九、将引导转移到硬盘
 
-（1）挂载EFI分区
+（1）挂载「EFI分区」
 
-使用Clover Configurator进行挂载或使用命令符
+使用「Clover Configurator」进行挂载或使用命令符
 
----使用打开终端，输入命令：sudo diskutil mount disk0s1或者sudo diskutil mount EFI
+---使用打开「终端」，输入命令：sudo diskutil mount disk0s1或者sudo diskutil mount EFI
 
-（2）将U盘中的EFI目录下载BOOT+CLOVER复制到硬盘的EFI文件夹下
+（2）将U盘中的「EFI分区」「EFI目录」下的「BOOT」+「CLOVER」复制到「硬盘」的「EFI分区」「EFI文件」夹下
 
 （3）重启,进BIOS设置，将硬盘设置为第一启动项
 
