@@ -105,3 +105,28 @@ sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createins
 
 -----使用DG对磁盘空闲部分右键，新建分区，选择<MAC日志式HFS+>
 
+PS：部分DG版本会先提示新建ESP分区，点取消，就会出现新建分区的界面
+
+-----<保存分区表>
+
+四、替换或修改EFI分区中的文件
+
+黑果小兵在镜像中附带了当前版本的CLOVER，并在博客中注明了各种文件如何解决，具体请查阅
+
+-----blog.daliansky.net
+
+如何修改EFI
+
+首先需要对ESP分区进行挂载：
+
+WIN：
+
+使用DG，默认挂载ESP分区，我们可以用DG工具对ESP分区中的EFI进行复制、删除、粘贴
+
+PS:复制粘贴请使用快捷键：Ctrl+C复制，Ctrl+V粘贴
+
+PS2：替换EFI：用DG删除ESP分区中的所有文件，然后将下载好的EFI复制粘贴在ESP分区目录下
+
+MAC：使用Clover Configurator进行挂载或使用命令符
+
+打开终端，输入命令：sudo diskutil mount disk0s1或者sudo diskutil mount EFI
