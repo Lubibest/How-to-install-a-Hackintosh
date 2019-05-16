@@ -101,7 +101,7 @@ sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createins
 
 对空闲的磁盘空间右键，<新建分区>，并选择格式为<EFI>，分区大小为300M，确认后，<保存分区表>
 
-此时的ESP分区格式为FAT16，我们需要对该分区格式化为<FAT32>
+此时的ESP分区格式为FAT16，我们需要对该分区格式化为FAT32
 
 （3）建立MAC OS系统安装分区
 
