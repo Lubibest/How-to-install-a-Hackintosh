@@ -185,4 +185,4 @@ CSM模式-关闭
 
 （2）选择U盘启动，进入四叶草引导界面
 
-------选择安装
+------选择boot mojave install from install mojave
