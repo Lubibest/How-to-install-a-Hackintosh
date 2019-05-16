@@ -151,4 +151,38 @@ https://github.com/daliansky/Hackintosh
 
 五、安装OS
 
-当你已经完成安装环境的部署、安装U盘的制作、以及EFI的修改或替换（或直接使用默认的EFI）后，你就
+当你已经完成安装环境的部署、安装U盘的制作、以及EFI的修改或替换（或直接使用默认的EFI）后
+
+你就可以开始进行安装了
+
+（1)设置BIOS
+
+你可以通过搜索工具搜索关于你的主板的BIOS设置
+
+如果我的机器是微信B360，关键词<黑苹果微星B360BIOS>
+
+PS:
+
+将你的硬盘模式调整为 AHCI 
+
+开启支持 UEFI 启动
+
+设置 你的 U盘为第一启动盘
+
+快速启动-关闭
+
+CFG-Lock-关闭
+
+Secure Boot Mode-关闭
+
+OS Type-Other OS
+
+XHCI Handoff-Enabled，在USB控制器下可以找到
+
+CSM模式-关闭
+
+超级IO-关闭
+
+（2）选择U盘启动，进入四叶草引导界面
+
+------选择安装
