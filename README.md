@@ -27,17 +27,17 @@
 1，镜像
 镜像下载地址：
 
-Mojave10.14.5:https://blog.daliansky.net/macOS-Mojave-10.14.5-18F132-official-version-with-Clover-4928-original-image.html
+  1）Mojave10.14.5:https://blog.daliansky.net/macOS-Mojave-10.14.5-18F132-official-version-with-Clover-4928-original-image.html
 
 Mojave10.14.4:https://blog.daliansky.net/macOS-Mojave-10.14.4-18E226-official-version-with-Clover-4903-original-image.html
 
 10.13.6(17G65):https://blog.daliansky.net/macOS-High-Sierra-10.13.6-17G65-Release-Version-with-Clover-4596-original-mirror.html
 
-2.Ecther
+  2）Ecther
 
 下载地址：http://etcher.io/
 
-3.DG分区工具DiskGenius（下文称为DG)：
+  3）DG分区工具DiskGenius（下文称为DG)：
 
 链接:https://pan.baidu.com/s/126xM0Hd-VV3JAmBCLRfJ0w  密码:on1y
 
