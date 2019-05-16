@@ -149,7 +149,7 @@ https://github.com/Lubibest/Hackintosh
 
 https://github.com/daliansky/Hackintosh
 
-五、安装OS
+六、安装OS
 
 当你已经完成安装环境的部署、安装U盘的制作、以及EFI的修改或替换（或直接使用默认的EFI）后
 
@@ -186,3 +186,33 @@ CSM模式-关闭
 （2）选择U盘启动，进入四叶草引导界面
 
 ------选择boot mojave install from install mojave
+
+------进入安装界面之后，选择语言
+
+------进入磁盘工具，
+
+对目标安装盘进行<抹掉>,
+
+重命名卷名为"Macintosh HD"或其他
+
+格式选择APFS
+
+------关闭磁盘工具窗口
+
+------选择安装Mojave
+
+PS：断开网络，拔掉以太网，断开wifi
+
+------安装过程将会重启，重启后选择boot mac install from Macintosh HD或抹盘的时候的卷名
+
+------安装将重启多次，选择boot macos install from Macintosh HD或抹盘的时候的卷名
+
+------安装完成，选择boot macos from Macintosh HD或抹盘的时候的卷名
+
+安装完成
+
+七、首次进入系统
+
+PS:能跳过的尽量跳过
+
+八、进入桌面
