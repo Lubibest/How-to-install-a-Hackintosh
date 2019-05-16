@@ -141,13 +141,16 @@ PS:替换EFI
 
 五、下载EFI
 
-我制作了一写台式机的EFI，请查阅以下链接，根据自己的配置类型选择下载合适的EFI，进行安装
+我制作了一系列的台式机的EFI，请查阅以下链接，根据自己的配置类型选择下载合适的EFI，进行安装
 
 https://github.com/Lubibest/Hackintosh
+
+PS:下载好EFI-for-install"并参考“四、替换或修改EFI分区中的文件”操作
 
 其他机器：
 
 https://github.com/daliansky/Hackintosh
+
 
 六、安装OS
 
@@ -216,3 +219,29 @@ PS：断开网络，拔掉以太网，断开wifi
 PS:能跳过的尽量跳过
 
 八、进入桌面
+
+九、将引导转移到硬盘
+
+（1）挂载EFI分区
+
+使用Clover Configurator进行挂载或使用命令符
+
+---使用打开终端，输入命令：sudo diskutil mount disk0s1或者sudo diskutil mount EFI
+
+（2）将U盘中的EFI目录下载BOOT+CLOVER复制到硬盘的EFI文件夹下
+
+（3）重启,进BIOS设置，将硬盘设置为第一启动项
+
+完成
+
+PS：下载好EFI-for-after install"并参考“四、替换或修改EFI分区中的文件”将EFI文件复制到U盘的EFI分区
+
+--------------------------------------------------------------
+
+本教程由 Genius-lbesT 修改制作并发布
+
+并提供远程教学安装服务，如需远程技术支持，请添加我的QQ
+
+作者：Genius-lbesT QQ2489050703
+
+加入QQ群：724096369 黑苹果Genius
