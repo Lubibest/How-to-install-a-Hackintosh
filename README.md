@@ -60,11 +60,15 @@ Mojave10.14.4:https://blog.daliansky.net/macOS-Mojave-10.14.4-18E226-official-ve
 
 -----打开Etcher-选择镜像-选择U盘-点击Flash，等待完成
 
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/2-flash.jpg)
+
 #### （2）mac下制作
 
 -----插入u盘
 
 -----打开 “**应用程序 → 实用工具 → 磁盘工具**”，将U盘「**抹掉**」(格式化) 成「**Mac OS X 扩展（日志式）**」格式、**GUID 分区图**，并将 U 盘命名为「**USB**」。注意：这个盘符名称必须与后面的命令里的名称一致，需要认真看清楚，很多新手容易出错在这里)
+
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/3-USB.jpg)
 
 -----打开双击镜像xx.dmg，将**镜像中的xx.app文件拖入application（应用程序）文件夹**
 
