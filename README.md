@@ -90,9 +90,11 @@ sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createins
 
 -----将镜像中的EFI或适合你机器使用的EFI，复制到U盘的EFI分区
 
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/5-EFI.jpg)
+
 ### 三、部署黑苹果的UEFI启动环境
 
-#### （1）「UEFI启动模式」需要你的磁盘为「guid格式」，对于「mbr格式」的磁盘，需要将「MAC目标安装磁盘」转换为「uid格式」
+#### （1）「UEFI启动模式」需要你的磁盘为「Guid格式」，对于「mbr格式」的磁盘，需要将「MAC目标安装磁盘」转换为「Guid格式」
 
 实现此操作的几个方法：
 
