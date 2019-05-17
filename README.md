@@ -84,7 +84,7 @@ sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createins
 
 ### 三、部署黑苹果的UEFI启动环境
 
-#### （1）UEFI启动需要你的磁盘为guid格式，对于mbr的磁盘，将磁盘转换为guid格式
+#### （1）「UEFI启动模式」需要你的磁盘为「guid格式」，对于「mbr格式」的磁盘，需要将「MAC目标安装磁盘」转换为「uid格式」
 
 实现此操作的几个方法：
 
@@ -92,7 +92,7 @@ sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createins
 
 2.win所在的磁盘进行转化时，请认真使用搜索工具进行转换操作，并修复WIN的引导
 
-请备份好数据再进行操作，本人不对该操作转换造成的数据丢失的行为负责。
+请备份好数据再进行操作，**数据无价**
 
 如需无损转换，请添加我的QQ2489050703寻求技术支持
 
@@ -110,7 +110,7 @@ sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createins
 
 #### （3）建立MAC OS系统安装分区
 
------使用DG对磁盘空闲部分右键，新建分区，选择「MAC日志式HFS+」
+-----使用DG对磁盘空闲部分右键，新建分区，选择「**MAC日志式HFS+**」
 
 PS：部分DG版本会先提示新建ESP分区，点取消，就会出现新建分区的界面
 
