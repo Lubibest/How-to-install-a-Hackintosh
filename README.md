@@ -8,7 +8,7 @@
 
 前言：
 
-##### 本教程主旨在于指导正确的安装一个黑苹果系统，其中包括了一下的内容：
+#### 本教程主旨在于指导正确的安装一个黑苹果系统，其中包括了一下的内容：
 
 如何制作UEFI引导的MAC OS安装U盘？
 
@@ -120,39 +120,39 @@ PS：部分DG版本会先提示新建ESP分区，点取消，就会出现新建�
 
 如何修改和替换EFI
 
-首先需要对「ESP分区」进行挂载：
+首先需要对「**ESP分区**」进行挂载：
 
 #### WIN：
 
-使用DG，默认挂载「ESP分区」，我们可以用DG工具对「ESP分区」中的EFI进行「复制、删除、粘贴」
+使用DG，默认挂载「**ESP分区**」，我们可以用DG工具对「**ESP分区**」中的**EFI**进行「**复制、删除、粘贴**」
 
-PS:复制粘贴请使用快捷键：Ctrl+C复制，Ctrl+V粘贴
+PS:复制粘贴请使用快捷键：**Ctrl+C复制，Ctrl+V粘贴**
 
-PS2：替换EFI：用DG删除「ESP分区」中的所有文件，然后将下载好的EFI复制粘贴在「ESP分区」目录下
+PS2：**替换EFI**：用DG删除「**ESP分区**」中的所有文件，然后将下载好的EFI复制粘贴在「**ESP分区**」目录下
 
 #### MAC：
 
-使用「Clover Configurator」进行挂载或使用「命令符」
+使用「**Clover Configurator**」进行挂载或使用「**命令符**」
 
-打开终端，输入命令：sudo diskutil mount disk0s1或者sudo diskutil mount EFI
+打开终端，输入命令：**sudo diskutil mount disk0s1**或者**sudo diskutil mount EFI**
 
-对「EFI分区」的文件进行复制、粘贴、删除
+对「**EFI分区**」的文件进行复制、粘贴、删除
 
 PS:替换EFI
 
-删除EFI分区的所有文件，拷贝下载好的「EFI」到「EFI分区」
+**删除EFI分区的所有文件**，拷贝下载好的「**EFI**」到「**EFI分区**」
 
 ### 五、下载EFI
 
-我制作了一系列的台式机的「EFI」，请查阅以下链接，
+我制作了一系列的台式机的「**EFI**」，请查阅以下链接，
 
-根据自己的配置类型选择下载合适的「EFI」，进行安装
+根据自己的配置类型选择下载合适的「**EFI**」，进行安装
 
-适用于6，7，8，9代CPU的台式机安装教程：
+适用于**6，7，8，9代CPU**的台式机安装教程：
 
 https://github.com/Lubibest/Hackintosh
 
-PS:下载好“EFI-for-install”并参考“四、替换或修改EFI分区中的文件”操作
+PS:下载好“**EFI-for-install**”并参考“**四、替换或修改EFI分区中的文件**”操作
 
 其他机器：
 
@@ -160,7 +160,7 @@ https://github.com/daliansky/Hackintosh
 
 ### 六、安装OS
 
-当你已经完成安装环境的部署、安装U盘的制作、以及「EFI」的修改或替换（或直接使用默认的EFI）后
+当你已经完成安装环境的部署、安装U盘的制作、以及「**EFI**」的修改或替换（或直接使用默认的EFI）后
 
 你就可以开始进行安装了
 
@@ -194,29 +194,29 @@ PS:
 
 #### （2）选择「U盘启动」，进入「四叶草引导界面」
 
-------选择boot mojave install from install mojave
+------选择**boot mojave install from install mojave**
 
-------进入「安装界面」之后，选择语言
+------进入「**安装界面**」之后，选择「**语言**」
 
-------进入「磁盘工具」，
+------进入「**磁盘工具**」，
 
-对目标安装盘进行「抹掉」,
+对目标安装盘进行「**抹掉**」,
 
-重命名卷名为"Macintosh HD"或其他
+重命名卷名为"**Macintosh HD**"或其他
 
-格式选择APFS
+格式选择「**APFS**」
 
 ------关闭磁盘工具窗口
 
 ------选择「安装Mojave」
 
-PS：断开网络，拔掉以太网，断开wifi
+**PS：断开网络，拔掉以太网，断开wifi**
 
-------安装过程将会重启，重启后选择boot mac install from 「Macintosh HD」或「抹盘的时候的卷名」
+------安装过程将会重启，重启后选择b**oot mac install from 「Macintosh HD」**或「抹盘的时候的卷名」
 
-------安装将重启多次，选择boot macos install from 「Macintosh HD」或「抹盘的时候的卷名」
+------安装将重启多次，选择**boot macos install from 「Macintosh HD」**或「抹盘的时候的卷名」
 
-------安装完成，选择boot macos from 「Macintosh HD」或「抹盘的时候的卷名」
+------安装完成，选择**boot macos from 「Macintosh HD」**或「抹盘的时候的卷名」
 
 安装完成
 
@@ -232,9 +232,9 @@ PS:能跳过的尽量跳过
 
 #### （1）挂载「EFI分区」
 
-使用「Clover Configurator」进行挂载或使用命令符
+使用「**Clover Configurator**」进行挂载或使用命令符
 
----使用打开「终端」，输入命令：sudo diskutil mount disk0s1或者sudo diskutil mount EFI
+---使用打开「**终端**」，输入命令：**sudo diskutil mount disk0s1**或者**sudo diskutil mount EFI**
 
 #### （2）将U盘中的「EFI分区」「EFI目录」下的「BOOT」+「CLOVER」复制到「硬盘」的「EFI分区」「EFI文件」夹下
 
