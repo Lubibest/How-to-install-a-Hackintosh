@@ -50,6 +50,8 @@ Mojave10.14.4:https://blog.daliansky.net/macOS-Mojave-10.14.4-18E226-official-ve
 
 #### （5）8G或大于8G的U盘
 
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/1-download.jpg)
+
 ### 二、制作安装系统U盘
 
 #### （1）win下制作
@@ -98,7 +100,7 @@ sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createins
 
 #### (2)建立ESP引导分区
 
------对空闲的磁盘空间右键，「**新建ESP分区**」，分区大小为「**300M**」，取消勾选「**MSR分区**」，完成，「**保存分区表**」
+——使用DG分区工具，对空闲的磁盘空间右键，「**新建ESP分区**」，分区大小为「**300M**」，取消勾选「**MSR分区**」，完成，「**保存分区表**」
 
 -----由于DG分区工具的版本区别，如果无显示「**新建ESP分区的**」
 
@@ -208,17 +210,15 @@ PS:
 
 ------关闭磁盘工具窗口
 
-------选择「安装Mojave」
+------选择「**安装Mojave**」
 
 **PS：断开网络，拔掉以太网，断开wifi**
 
-------安装过程将会重启，重启后选择b**oot mac install from 「Macintosh HD」**或「抹盘的时候的卷名」
-
-------安装将重启多次，选择**boot macos install from 「Macintosh HD」**或「抹盘的时候的卷名」
+------安装将**重启多次**，选择**boot macos install from 「Macintosh HD」**或「抹盘的时候的卷名」
 
 ------安装完成，选择**boot macos from 「Macintosh HD」**或「抹盘的时候的卷名」
 
-安装完成
+------安装完成
 
 ### 七、首次进入系统
 
@@ -243,8 +243,6 @@ PS:能跳过的尽量跳过
 #### 完成
 
 PS：下载好EFI-for-after install"并参考“四、替换或修改EFI分区中的文件”将EFI文件复制到U盘的EFI分区
-
-------
 
 ### 注意事项：
 
