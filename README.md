@@ -60,7 +60,7 @@ Mojave10.14.4:https://blog.daliansky.net/macOS-Mojave-10.14.4-18E226-official-ve
 
 -----打开Etcher-选择镜像-选择U盘-点击Flash，等待完成
 
-![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/2-flash.jpg)
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/2-FLASH.jpg)
 
 #### （2）mac下制作
 
