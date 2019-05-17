@@ -126,6 +126,10 @@ PS：部分DG版本会先提示新建ESP分区，点取消，就会出现新建�
 
 -----<保存分区表>
 
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/6-DG1.jpg)
+
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/7-DG2.jpg)
+
 ### 四、替换或修改「EFI分区」中的文件
 
 如何修改和替换EFI
