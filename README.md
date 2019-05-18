@@ -244,6 +244,22 @@ PS:
 
 PS:能跳过的尽量跳过
 
+![语言及地区](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/jpg/13.jpg)
+
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/jpg/14.jpg)
+
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/jpg/15.jpg)
+
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/jpg/16.jpg)
+
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/jpg/17.jpg)
+
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/jpg/18.jpg)
+
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/jpg/19-finish.jpg)
+
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/jpg/20.jpg)
+
 
 
 无法跳过：设置用户名及密码
