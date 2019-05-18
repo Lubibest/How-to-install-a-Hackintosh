@@ -142,6 +142,8 @@ PS:复制粘贴请使用快捷键：**Ctrl+C复制，Ctrl+V粘贴**
 
 PS2：**替换EFI**：用DG删除「**ESP分区**」中的所有文件，然后将下载好的EFI复制粘贴在「**ESP分区**」目录下
 
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/8-DG3.jpg)
+
 #### MAC：
 
 使用「**Clover Configurator**」进行挂载或使用「**命令符**」
@@ -210,7 +212,11 @@ PS:
 
 ------进入「**安装界面**」之后，选择「**语言**」
 
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/10-install-2.jpg)
+
 ------进入「**磁盘工具**」，
+
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/11-install-3.jpg)
 
 对目标安装盘进行「**抹掉**」,
 
@@ -219,6 +225,8 @@ PS:
 格式选择「**APFS**」
 
 ------关闭磁盘工具窗口
+
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/12-install-4.jpg)
 
 ------选择「**安装Mojave**」
 
