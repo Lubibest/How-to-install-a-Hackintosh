@@ -306,8 +306,6 @@ https://blog.daliansky.net/macOS-10.13-installation-of-common-problems-and-solut
 
 **Genius-lbesT** 发布
 
-并提供远程教学安装服务，如需远程技术支持，请添加我的QQ
-
 作者：Genius-lbesT QQ2489050703
 
 加入QQ群：724096369 黑苹果Genius
