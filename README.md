@@ -152,6 +152,8 @@ PS2：**替换EFI**：用DG删除「**ESP分区**」中的所有文件，然后�
 
 对「**EFI分区**」的文件进行复制、粘贴、删除
 
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/5-EFI.jpg)
+
 PS:替换EFI
 
 **删除EFI分区的所有文件**，拷贝下载好的「**EFI**」到「**EFI分区**」
