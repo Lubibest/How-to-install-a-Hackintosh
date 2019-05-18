@@ -50,7 +50,7 @@ Mojave10.14.4:https://blog.daliansky.net/macOS-Mojave-10.14.4-18E226-official-ve
 
 #### （5）8G或大于8G的U盘
 
-![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/1-download.jpg)
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/jpg/1-download.jpg)
 
 ### 二、制作安装系统U盘
 
@@ -60,7 +60,7 @@ Mojave10.14.4:https://blog.daliansky.net/macOS-Mojave-10.14.4-18E226-official-ve
 
 -----打开Etcher-选择镜像-选择U盘-点击Flash，等待完成
 
-![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/2-FLASH.jpg)
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/jpg/2-FLASH.jpg)
 
 #### （2）mac下制作
 
@@ -68,7 +68,7 @@ Mojave10.14.4:https://blog.daliansky.net/macOS-Mojave-10.14.4-18E226-official-ve
 
 -----打开 “**应用程序 → 实用工具 → 磁盘工具**”，将U盘「**抹掉**」(格式化) 成「**Mac OS X 扩展（日志式）**」格式、**GUID 分区图**，并将 U 盘命名为「**USB**」。注意：这个盘符名称必须与后面的命令里的名称一致，需要认真看清楚，很多新手容易出错在这里)
 
-![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/3-USB.jpg)
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/jpg/3-USB.jpg)
 
 -----打开双击镜像xx.dmg，将**镜像中的xx.app文件拖入application（应用程序）文件夹**
 
@@ -82,7 +82,7 @@ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallme
 
 sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/USB --applicationpath /Applications/Install\ macOS\ High\ Sierra.app --nointeraction
 
-![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/4-MAC-FLASH.jpg)
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/jpg/4-MAC-FLASH.jpg)
 
 -----挂载EFI
 
@@ -90,7 +90,7 @@ sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createins
 
 -----将镜像中的EFI或适合你机器使用的EFI，复制到U盘的EFI分区
 
-![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/5-EFI.jpg)
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/jpg/5-EFI.jpg)
 
 ### 三、部署黑苹果的UEFI启动环境
 
@@ -124,9 +124,9 @@ PS：部分DG版本会先提示新建ESP分区，点取消，就会出现新建�
 
 -----<保存分区表>
 
-![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/6-DG1.jpg)
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/jpg/6-DG1.jpg)
 
-![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/7-DG2.jpg)
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/jpg/7-DG2.jpg)
 
 ### 四、替换或修改「EFI分区」中的文件
 
@@ -142,7 +142,7 @@ PS:复制粘贴请使用快捷键：**Ctrl+C复制，Ctrl+V粘贴**
 
 PS2：**替换EFI**：用DG删除「**ESP分区**」中的所有文件，然后将下载好的EFI复制粘贴在「**ESP分区**」目录下
 
-![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/8-DG3.jpg)
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/jpg/8-DG3.jpg)
 
 #### MAC：
 
@@ -152,7 +152,7 @@ PS2：**替换EFI**：用DG删除「**ESP分区**」中的所有文件，然后�
 
 对「**EFI分区**」的文件进行复制、粘贴、删除
 
-![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/5-EFI.jpg)
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/jpg/5-EFI.jpg)
 
 PS:替换EFI
 
@@ -214,11 +214,11 @@ PS:
 
 ------进入「**安装界面**」之后，选择「**语言**」
 
-![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/10-install-2.jpg)
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/jpg/10-install-2.jpg)
 
 ------进入「**磁盘工具**」，
 
-![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/11-install-3.jpg)
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/jpg/11-install-3.jpg)
 
 对目标安装盘进行「**抹掉**」,
 
@@ -228,7 +228,7 @@ PS:
 
 ------关闭磁盘工具窗口
 
-![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/12-install-4.jpg)
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/jpg/12-install-4.jpg)
 
 ------选择「**安装Mojave**」
 
@@ -243,6 +243,8 @@ PS:
 ### 七、首次进入系统
 
 PS:能跳过的尽量跳过
+
+
 
 无法跳过：设置用户名及密码
 
