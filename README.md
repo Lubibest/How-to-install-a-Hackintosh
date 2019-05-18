@@ -212,6 +212,8 @@ PS:
 
 ------选择**boot mojave install from install mojave**
 
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/jpg/genius-1.jpg)
+
 ------进入「**安装界面**」之后，选择「**语言**」
 
 ![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/jpg/10-install-2.jpg)
@@ -237,6 +239,8 @@ PS:
 ------安装将**重启多次**，选择**boot macos install from 「Macintosh HD」**或「抹盘的时候的卷名」
 
 ------安装完成，选择**boot macos from 「Macintosh HD」**或「抹盘的时候的卷名」
+
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/jpg/genius-2.jpg)
 
 ------安装完成
 
