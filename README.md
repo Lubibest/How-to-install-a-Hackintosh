@@ -284,7 +284,7 @@ PS:能跳过的尽量跳过
 
 #### 完成
 
-PS：下载好EFI-for-after install"并参考“四、替换或修改EFI分区中的文件”将EFI文件复制到U盘的EFI分区
+PS：下载好EFI-for-after install"并参考“四、替换或修改EFI分区中的文件”将EFI文件复制到硬盘的EFI分区
 
 ### 注意事项：
 
