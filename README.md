@@ -296,10 +296,6 @@ https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Mojave-10.14-i
 
 https://blog.daliansky.net/macOS-10.13-installation-of-common-problems-and-solutions.html
 
-----转载出处：黑果小兵部落阁，感谢黑果小兵daliansky
-
-------
-
 #### 本教程由
 
 **垃圾帮主** 制作
