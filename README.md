@@ -76,17 +76,17 @@ Mojave10.14.4:https://blog.daliansky.net/macOS-Mojave-10.14.4-18E226-official-ve
 
 --**Mojave**:
 
-sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/USB /Applications/Install\ macOS\ Mojave.app --nointeraction
+`sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/USB /Applications/Install\ macOS\ Mojave.app --nointeraction`
 
 --**High Sierra**
 
-sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/USB --applicationpath /Applications/Install\ macOS\ High\ Sierra.app --nointeraction
+`sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/USB --applicationpath /Applications/Install\ macOS\ High\ Sierra.app --nointeraction`
 
 ![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/jpg/4-MAC-FLASH.jpg)
 
 -----挂载EFI
 
-打开终端，输入命令：**sudo diskutil mount disk0s1**或者**sudo diskutil mount EFI**
+打开终端，输入命令：**`sudo diskutil mount disk0s1`**或者**`sudo diskutil mount EFI`**
 
 -----将镜像中的EFI或适合你机器使用的EFI，复制到U盘的EFI分区
 
@@ -148,7 +148,7 @@ PS2：**替换EFI**：用DG删除「**ESP分区**」中的所有文件，然后�
 
 使用「**Clover Configurator**」进行挂载或使用「**命令符**」
 
-打开终端，输入命令：**sudo diskutil mount disk0s1**或者**sudo diskutil mount EFI**
+打开终端，输入命令：**`sudo diskutil mount disk0s1`**或者**`sudo diskutil mount EFI`**
 
 对「**EFI分区**」的文件进行复制、粘贴、删除
 
@@ -264,8 +264,6 @@ PS:能跳过的尽量跳过
 
 ![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/jpg/20.jpg)
 
-
-
 无法跳过：设置用户名及密码
 
 ### 八、进入桌面
@@ -276,7 +274,7 @@ PS:能跳过的尽量跳过
 
 使用「**Clover Configurator**」进行挂载或使用命令符
 
----使用打开「**终端**」，输入命令：**sudo diskutil mount disk0s1**或者**sudo diskutil mount EFI**
+---使用打开「**终端**」，输入命令：**`sudo diskutil mount disk0s1`**或者**`sudo diskutil mount EFI`**
 
 #### （2）将U盘中的「EFI分区」「EFI目录」下的「BOOT」+「CLOVER」复制到「硬盘」的「EFI分区」「EFI文件」夹下
 
@@ -290,13 +288,17 @@ PS：下载好EFI-for-after install"并参考“四、替换或修改EFI分区�
 
 安装过程如果遇到任何问题，请查阅黑果小兵的两篇教程,如下：
 
-#### macOS Mojave 10.14安装中常见的问题及解决方法
+#### macOS Mojave 10.14安装中常见的问题及解决方法:
 
 https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Mojave-10.14-installation.html
 
 #### macOS 10.13安装中常见的问题及解决方法
 
 https://blog.daliansky.net/macOS-10.13-installation-of-common-problems-and-solutions.html
+
+----转载出处：黑果小兵部落阁，感谢黑果小兵daliansky
+
+------
 
 #### 本教程由
 
