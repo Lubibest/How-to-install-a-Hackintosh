@@ -28,7 +28,7 @@
 
 #### （1）镜像
 
-镜像下载地址（转载来源：黑果小兵的部落阁）：
+镜像下载地址：
 
 Mojave10.14.5:https://blog.daliansky.net/macOS-Mojave-10.14.5-18F132-official-version-with-Clover-4928-original-image.html
 
@@ -290,11 +290,11 @@ PS：下载好EFI-for-after install"并参考“四、替换或修改EFI分区�
 
 安装过程如果遇到任何问题，请查阅黑果小兵的两篇教程,如下：
 
-#### macOS Mojave 10.14安装中常见的问题及解决方法（转载来源：黑果小兵的部落阁）
+#### macOS Mojave 10.14安装中常见的问题及解决方法
 
 https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Mojave-10.14-installation.html
 
-#### macOS 10.13安装中常见的问题及解决方法（转载来源：黑果小兵的部落阁）
+#### macOS 10.13安装中常见的问题及解决方法
 
 https://blog.daliansky.net/macOS-10.13-installation-of-common-problems-and-solutions.html
 
