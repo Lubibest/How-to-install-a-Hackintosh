@@ -1,10 +1,10 @@
 # How-to-install-a-Hackintosh
 
-作者：**Genius-lbesT** QQ2489050703
+作者：**Genius-lbesT**
 
-加入QQ群：724096369 **黑苹果Genius**
+**黑苹果Genius**
 
-转载请注明出处
+
 
 前言：
 
@@ -295,6 +295,8 @@ https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Mojave-10.14-i
 #### macOS 10.13安装中常见的问题及解决方法
 
 https://blog.daliansky.net/macOS-10.13-installation-of-common-problems-and-solutions.html
+
+------
 
 #### 本教程由
 
