@@ -30,23 +30,23 @@
 
 镜像下载地址：
 
-Mojave10.14.5:https://blog.daliansky.net/macOS-Mojave-10.14.5-18F132-official-version-with-Clover-4928-original-image.html
+Mojave10.14.5:[镜像下载](https://blog.daliansky.net/macOS-Mojave-10.14.5-18F132-official-version-with-Clover-4928-original-image.html)
 
-Mojave10.14.4:https://blog.daliansky.net/macOS-Mojave-10.14.4-18E226-official-version-with-Clover-4903-original-image.html
+Mojave10.14.4:[镜像下载](https://blog.daliansky.net/macOS-Mojave-10.14.4-18E226-official-version-with-Clover-4903-original-image.html)
 
-10.13.6(17G65):https://blog.daliansky.net/macOS-High-Sierra-10.13.6-17G65-Release-Version-with-Clover-4596-original-mirror.html
+10.13.6(17G65):[镜像下载](https://blog.daliansky.net/macOS-High-Sierra-10.13.6-17G65-Release-Version-with-Clover-4596-original-mirror.html)
 
 #### （2）Etcher
 
-下载地址：http://etcher.io/
+下载地址：[etcher.io](http://etcher.io/)
 
 #### （3）DG分区工具DiskGenius（下文称为DG)：
 
-链接:https://pan.baidu.com/s/126xM0Hd-VV3JAmBCLRfJ0w  密码:on1y
+链接:[百度网盘](https://pan.baidu.com/s/126xM0Hd-VV3JAmBCLRfJ0w)  密码:on1y
 
 #### （4）「Clover Configurator」：
 
-链接:https://pan.baidu.com/s/1BQmm0ujuQCwsqHDwJOjXug  密码:1psl
+链接:[百度网盘](https://pan.baidu.com/s/1BQmm0ujuQCwsqHDwJOjXug)  密码:1psl
 
 #### （5）8G或大于8G的U盘
 
@@ -164,15 +164,11 @@ PS:替换EFI
 
 根据自己的配置类型选择下载合适的「**EFI**」，进行安装
 
-适用于**6，7，8，9代CPU**的台式机安装教程：
-
-https://github.com/Lubibest/Hackintosh
+[适用于**6，7，8，9代CPU**的台式机安装教程](https://github.com/Lubibest/Hackintosh)
 
 PS:下载好“**EFI-for-install**”并参考“**四、替换或修改EFI分区中的文件**”操作
 
-其他机器：
-
-https://github.com/daliansky/Hackintosh
+其他机器：[其他](https://github.com/daliansky/Hackintosh)
 
 ### 六、安装OS
 
@@ -188,25 +184,25 @@ https://github.com/daliansky/Hackintosh
 
 PS:
 
-**将你的硬盘模式调整为 AHCI** 
+将你的硬盘模式调整为 AHCI 
 
-**开启支持 UEFI 启动**
+开启支持 UEFI 启动
 
-**设置 你的 U盘为第一启动盘**
+设置 你的 U盘为第一启动盘
 
-**快速启动-关闭**
+快速启动-关闭
 
-**CFG-Lock-关闭**
+CFG-Lock-关闭
 
-**Secure Boot Mode-关闭**
+Secure Boot Mode-关闭
 
-**OS Type-Other OS**
+OS Type-Other OS
 
-**XHCI Handoff-Enabled，在USB控制器下可以找到**
+XHCI Handoff-Enabled，在USB控制器下可以找到
 
-**CSM模式-关闭**
+CSM模式-关闭
 
-**超级IO-关闭**
+超级IO-关闭
 
 #### （2）选择「U盘启动」，进入「四叶草引导界面」
 
@@ -288,13 +284,9 @@ PS：下载好EFI-for-after install"并参考“四、替换或修改EFI分区�
 
 安装过程如果遇到任何问题，请查阅黑果小兵的两篇教程,如下：
 
-#### macOS Mojave 10.14安装中常见的问题及解决方法:
+[macOS Mojave 10.14安装中常见的问题及解决方法](https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Mojave-10.14-installation.html)
 
-https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Mojave-10.14-installation.html
-
-#### macOS 10.13安装中常见的问题及解决方法
-
-https://blog.daliansky.net/macOS-10.13-installation-of-common-problems-and-solutions.html
+[macOS 10.13安装中常见的问题及解决方法](https://blog.daliansky.net/macOS-10.13-installation-of-common-problems-and-solutions.html)
 
 ------
 
