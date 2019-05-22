@@ -286,16 +286,19 @@ PS：下载好EFI-for-after install"并参考“四、替换或修改EFI分区�
 
 [macOS Mojave 10.14安装中常见的问题及解决方法](https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Mojave-10.14-installation.html)
 
-[macOS 10.13安装中常见的问题及解决方法](https://blog.daliansky.net/macOS-10.13-installation-of-common-problems-and-solutions.html)
+[macOS 10.13安装中常见的问题及解决方法
 
-------
+## 本教程由
 
-#### 本教程由
+**垃圾帮主**修改制作
 
-**垃圾帮主** 制作
+**Genius lbesT**发布
 
-**Genius-lbesT** 发布
+作者：**Genius-lbesT**
 
-作者：Genius-lbesT QQ2489050703
+qq群：724096369
 
-加入QQ群：724096369 黑苹果Genius
+![](https://github.com/Lubibest/Hackintosh/blob/master/JPG/QQ.png)
+
+ **黑苹果Genius**   [打赏](https://github.com/Lubibest/About-Genius-lbesT)
+
