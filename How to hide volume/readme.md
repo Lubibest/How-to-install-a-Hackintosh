@@ -22,7 +22,7 @@
 
 3、GUI/Hide Volume下，添加Preboot+Recovery
 
-![]()
+![](https://github.com/Lubibest/How-to-install-a-Hackintosh/blob/master/How%20to%20hide%20volume/hide%20volime.png)
 
 ### 三、保存-重启生效
 
