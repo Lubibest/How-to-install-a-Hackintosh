@@ -286,11 +286,9 @@ PS：下载好EFI-for-after install"并参考“四、替换或修改EFI分区�
 
 [macOS Mojave 10.14安装中常见的问题及解决方法](https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Mojave-10.14-installation.html)
 
-[macOS 10.13安装中常见的问题及解决方法
+[macOS 10.13安装中常见的问题及解决方法](https://blog.daliansky.net/macOS-10.13-installation-of-common-problems-and-solutions.html)
 
-其他：
-
-[隐藏启动项](https://github.com/Lubibest/How-to-install-a-Hackintosh/tree/master/How%20to%20hide%20volume）
+[隐藏无用启动项](https://github.com/Lubibest/How-to-hide-volume)
 
 ## 本教程由
 
