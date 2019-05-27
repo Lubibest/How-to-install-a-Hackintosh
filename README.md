@@ -288,6 +288,10 @@ PS：下载好EFI-for-after install"并参考“四、替换或修改EFI分区�
 
 [macOS 10.13安装中常见的问题及解决方法
 
+其他：
+
+[隐藏启动项](https://github.com/Lubibest/How-to-install-a-Hackintosh/tree/master/How%20to%20hide%20volume）
+
 ## 本教程由
 
 **垃圾帮主**修改制作
