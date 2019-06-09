@@ -168,7 +168,7 @@ PS:替换EFI
 
 PS:下载好“**EFI-for-install**”并参考“**四、替换或修改EFI分区中的文件**”操作
 
-其他机器：[其他](https://github.com/daliansky/Hackintosh)
+其他机器：[其他（Hackintosh黑苹果长期维护机型EFI及安装教程整理）by黑果小兵](https://github.com/daliansky/Hackintosh)
 
 ### 六、安装OS
 
